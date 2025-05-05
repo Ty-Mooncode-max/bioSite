@@ -1,5 +1,5 @@
 * {
-  box-sizing: content-box;
+  box-sizing: border-box;
   font-family: Arial, sans-serif;
 }
 
@@ -16,7 +16,10 @@ nav {
   gap: 40px;
   padding: 20px;
   border-bottom: 1px solid #ccc;
+  background-color: #333;
+  color: white;
 }
+
 
 nav a,
 a.button-link {
@@ -84,7 +87,8 @@ img,
   max-width: 320px;
   height: auto;
   display: block;
-  margin: 20px auto;
+  background: none;
+  margin: auto;
   border-radius: 8px;
   transition: transform 0.3s ease, box-shadow 0.3s ease;
 }

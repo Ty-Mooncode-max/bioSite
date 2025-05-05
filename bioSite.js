@@ -35,7 +35,11 @@ function setColor(color) {
 }
 
 function randomColor() {
-    const colors = ['green', 'red', 'blue', 'orange', 'purple', 'yellow'];
+    const colors = [
+    'green', 'red', 'blue', 'orange', 'purple', 'yellow', 'pink', 'brown', 'black', 'white',
+    'cyan', 'magenta', 'lime', 'olive', 'teal', 'navy', 'maroon', 'gray', 'silver', 'gold',
+    'beige', 'coral', 'turquoise', 'violet', 'indigo', 'tan', 'salmon', 'aquamarine', 'chocolate', 'lavender'
+];
     const randomIndex = Math.floor(Math.random() * colors.length);
     document.body.style.backgroundColor = colors[randomIndex];  // Apply color to the body
 }
